@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76006149-8175-4a6b-985f-7857ca9ca21f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ST0245.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ST0245.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/archivo.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/calles_de_medellin_con_acoso.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/code_map.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/data_calles_de_medellin_con_acoso.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/poligono_de_medellin.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +170,7 @@
       <workItem from="1665854912243" duration="4189000" />
       <workItem from="1665879151757" duration="7560000" />
       <workItem from="1665898807942" duration="3112000" />
-      <workItem from="1665961822867" duration="7496000" />
+      <workItem from="1665961822867" duration="9988000" />
     </task>
     <servers />
   </component>
