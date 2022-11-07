@@ -3,11 +3,36 @@
   <component name="ChangeListManager">
     <list default="true" id="76006149-8175-4a6b-985f-7857ca9ca21f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/entrega-final/src/dijkstra.py" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/entrega-final/src/dijkstra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/entrega-final/src/draw_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/entrega-final/src/draw_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/entrega-final/src/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/entrega-final/src/graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/entrega-final/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/entrega-final/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo/entrega-final/src/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/codigo/entrega-final/src/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega-final/src/data/calles_de_medellin_con_acoso.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega-final/src/data/poligono_de_medellin.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega-final/src/dijkstra.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega-final/src/draw_map.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega-final/src/graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega-final/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega-final/src/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega1/calles_de_medellin_con_acoso.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega1/code_map.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega1/data_calles_de_medellin_con_acoso.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega1/poligono_de_medellin.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega2/src/data/calles_de_medellin_con_acoso.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega2/src/data/poligono_de_medellin.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega2/src/dijkstra.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega2/src/draw_map.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega2/src/graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega2/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigo/entrega2/src/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/informe/archivo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/informe/entrega1/ED1-Technical-Report-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/informe/entrega1/archivo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/informe/entrega2/ED1-Technical-Report-2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/informe/entrega2/archivo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/informe/entrega3/archivo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/entrega1/ED1-Slides-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/entrega1/archivo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/entrega2/ED1-Slides-2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/entrega2/archivo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion/entrega3/archivo.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +204,7 @@
       <workItem from="1665961822867" duration="9988000" />
       <workItem from="1667715620984" duration="1599000" />
       <workItem from="1667780909299" duration="6270000" />
-      <workItem from="1667792114782" duration="7216000" />
+      <workItem from="1667792114782" duration="9252000" />
     </task>
     <servers />
   </component>
