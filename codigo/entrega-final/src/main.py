@@ -5,65 +5,52 @@ import time
 
 
 def main():
-    # Start the timer
+    print("Welcome to the safest and shortest path finder of Medellin")
+    print("Check the Github repository of this project for more information")
+    print("+------------------------------------------------------------+")
+
+    paths = []
+
+    # TEST N1 (Universidad EAFIT - Universidad de Nacional) - First type of Harassment-Distance
+    print("TEST N1 (Universidad EAFIT -> Universidad de Nacional) - First type of Harassment-Distance")
+    paths.append(path_generator(1, (-75.5790173, 6.1971336), (-75.5762232, 6.266327)))
+
+    # TEST N1 (Universidad EAFIT - Universidad de Nacional) - Second type of Harassment-Distance
+    print("TEST N1 (Universidad EAFIT -> Universidad de Nacional) - Second type of Harassment-Distance")
+    paths.append(path_generator(2, (-75.5790173, 6.1971336), (-75.5762232, 6.266327)))
+
+    # TEST N1 (Universidad EAFIT - Universidad de Nacional) - Third type of Harassment-Distance
+    print("TEST N1 (Universidad EAFIT -> Universidad de Nacional) - Third type of Harassment-Distance")
+    paths.append(path_generator(3, (-75.5790173, 6.1971336), (-75.5762232, 6.266327)))
+
+    print("Drawing the map...")
+    draw_map.draw_map(*paths)
+    print("Map drawn!")
+    paths.clear()
+    print("+------------------------------------------------------------+")
+
+
+def path_generator(type_weight_harassment, start, target):
+    print("Starting the timer")
     start_time = time.time()
+
     print('Loading graph...')
     # Create a graph with the first type of weight_harassment
-    graph = create_graph(1)
+    graph = create_graph(type_weight_harassment)
 
-    # First test: Universidad de Antioquia -> Universidad Nacional
-    print("First test: Universidad de Antioquia -> Universidad Nacional")
-    path, path_names, distance, distance_harassment = dijkstra.shortest_safest_path(graph, (-75.5694416, 6.2650137),
-                                                                                    (-75.5762232, 6.266327))
+    path, path_names, distance, distance_harassment = dijkstra.shortest_safest_path(graph, start, target)
+    print("+----------------------------------------+")
     print("Path: ", path)
     print("Path names: ", path_names)
-    print("Distance: ", distance)
+    print("+----------------------------------------+")
+    print(f"Distance: {distance} m")
     print("Distance-harassment: ", distance_harassment)
-    print("----------------------------------------")
-    draw_map.draw_map(path)
+    print("+----------------------------------------+")
     # Finish the timer and print the time
-    print("Time: ", time.time() - start_time)
-    print()
+    print(f"Time: {round(time.time() - start_time, 3)} seconds")
+    print("+----------------------------------------+")
 
-    # Start the timer
-    start_time = time.time()
-    print('Loading graph...')
-    # Create a graph with the second type of weight_harassment
-    graph = create_graph(2)
-
-    # Second test: Universidad EAFIT -> Universidad de Medellin
-    print("Second test: Universidad EAFIT -> Universidad de Medellin")
-    path, path_names, distance, distance_harassment = dijkstra.shortest_safest_path(graph, (-75.5769749, 6.2056892),
-                                                                                    (-75.6348967, 6.2704309))
-    print("Path: ", path)
-    print("Path names: ", path_names)
-    print("Distance: ", distance)
-    print("Distance-harassment: ", distance_harassment)
-    print("----------------------------------------")
-    draw_map.draw_map(path)
-    # Finish the timer and print the time
-    print("Time: ", time.time() - start_time)
-    print()
-
-    # Start the timer
-    start_time = time.time()
-    print('Loading graph...')
-    # Create a graph with the third type of weight_harassment
-    graph = create_graph(3)
-
-    # Third test: Universidad Nacional -> Universidad Luis Amigó
-    print("Third test: Universidad Nacional -> Universidad Luis Amigó")
-    path, path_names, distance, distance_harassment = dijkstra.shortest_safest_path(graph, (-75.609497, 6.2581403),
-                                                                                    (-75.6348967, 6.2704309))
-    print("Path: ", path)
-    print("Path names: ", path_names)
-    print("Distance: ", distance)
-    print("Distance-harassment: ", distance_harassment)
-    print("----------------------------------------")
-    draw_map.draw_map(path)
-    # Finish the timer and print the time
-    print("Time: ", time.time() - start_time)
-    print()
+    return path
 
 
 if __name__ == '__main__':

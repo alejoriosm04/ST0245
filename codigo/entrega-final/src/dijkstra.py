@@ -19,33 +19,34 @@ def shortest_safest_path(graph, start, target):
                 previous[neighbor] = current
                 heapq.heappush(priority_queue, (distance, neighbor))
 
-    # Create a list with the path from the start to the target
     path = []
-    # Set the current node to the target
     current = target
-    # While the current node is not the start
+
     while current != start:
-        # Add the current node to the path
         path.append(current)
-        # Set the current node to the previous node of the current node
         current = previous[current]
-    # Add the start to the path
+
     path.append(start)
-    # Reverse the path
     path.reverse()
 
-    # Variable to store the distance from the start to the target
     total_distance = 0
-    # List with the names of the streets
+    total_harassment = 0
     path_names = []
 
-    for i in range(len(path)-1):
+    for i in range(1, len(path)-1):
         total_distance += graph[path[i]][path[i+1]][1]
+
+    total_distance = round(total_distance, 2)
+
+    for i in range(len(path)-1):
+        total_harassment += graph[path[i]][path[i+1]][3]
+
+    total_harassment = round(total_harassment/len(path), 2)
 
     for i in range(len(path)-1):
         path_names.append(graph[path[i]][path[i+1]][2])
 
     for i in range(len(path)):
         path[i] = (path[i][1], path[i][0])
-    # Return the path, the path with the names and the distance from the start to the target
-    return path, path_names, total_distance, distances[target]
+
+    return path, path_names, total_distance, total_harassment
