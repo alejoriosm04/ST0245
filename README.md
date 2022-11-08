@@ -1,28 +1,47 @@
-<h1 align = "center">Project Street Harassment in Medellin</h1>
+<h1 align = "center">Street Harassment in Medellin</h1>
+
+Research of an algorithm able to provent the street harassment in Medellin.
+
+Project for the second-semester course "Data Structures and Algorithms I" (ST0245) taught at EAFIT University (Medellín, Colombia) by prof [Mauricio Toro](https://github.com/mauriciotoro).
 
 ## Project Structure
 
     ├── CITATION.cff
-    ├── README.md          <- The top-level README for developers/collaborators using this project.
-    ├── .gitignore          <- Original Source Code of the challenge hosted by omdena. Can be used as a reference code for the current project goal.
+    ├── README.md               <- Details about the project.
+    ├── .gitignore         
     │ 
-    │
-    ├── code            <- Folder containing the final reports/results of this project
-    │   ├── delivery1     <- Details about final reports and analysis
+    ├── code                    <- Folder containing all the development stages of the project in code.
+    │   ├── delivery1     
     │   ├── delivery2
-    │   ├── final-delivery
+    │   └── final-delivery      <- Folder containing the final results of this project.
+    │       └── src/data        <- Datasets used and collected for this project.
     │   
-    ├── docs                <- Source code folder for this project
+    └── docs                    <- Folder to store all documentation of the project.
         │
-        ├── reports           <- Datasets used and collected for this project
+        ├── reports
+        │   ├── delivery1     
+        │   ├── delivery2
+        │   └── final-delivery  <- Folder containing the final Report of this project.
         │   
-        ├── presentations           <- Folder for Task documentations, Meeting Presentations and task Workflow Documents and Diagrams.
-        │
-        ├── references     <- Data dictionaries, manuals, and all other explanatory references used 
-        │
-        ├── tasks          <- Master folder for all individual task folders
-        │
-        ├── visualizations <- Code and Visualization dashboards generated for the project
-        │
-        └── results        <- Folder to store Final analysis and modelling results and code.
+        └── presentations
+            ├── delivery1     
+            ├── delivery2
+            └── final-delivery  <- Folder containing the final Presentation of this project.
 --------
+
+## Motivation
+In the Reports of the project, you will find the reasons for the development of this project and the proposed solutions. Also, how all the authors of this, made possible the final results.
+
+## Documentation
+
+
+### Caveats
+
+## Install
+
+
+## Contribute
+
+## Authors
+
+## License

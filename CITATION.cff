@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: ST0245
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Alejandro
+    family-names: Ríos Muñoz
+    affiliation: Universidad EAFIT
+  - given-names: Marcela
+    family-names: Londoño León
+    affiliation: Universidad EAFIT
+  - given-names: Juan Alejandro
+    family-names: Ozorno Bustamante
+    affiliation: Universidad EAFIT
+repository-code: >-
+  https://github.com/alejoriosm04/ST0245
+abstract: >-
+  Sexual harassment is a problem women experience in their daily life, this can include verbal and non-verbal abuse, and can take place everywhere, in Medellin “over 61,5% of women for certain neighborhoods manifest that they felt insecure to move around the city after 7pm” [10]. The importance of this problem is that the fear women experienced of sexual harassment, make them take a certain behaviour to prevent walking and passing by those places they’re more likely to be abuse, which affect their life opportunities and freedoms of mobility. Due to this, in order to make women feel more safe, this project and research is about using an algorithm that is able to calculate different paths depending on the distance and the sexual harassment of Medellin streets.
+keywords:
+  - Python
+  - Shortest and Safest Path
+  - Sexual Harassment
+  - Medellin
+  - Dijkstra
