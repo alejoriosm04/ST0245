@@ -55,3 +55,7 @@ def path_generator(type_weight_harassment, start, target):
 
 if __name__ == '__main__':
     main()
+
+
+# Copyright (c) 2022, Alejandro Ríos-Muñoz, Marcela Londoño-León, Juan Alejandro Osorno-Bustamante.
+# Nice project :)
