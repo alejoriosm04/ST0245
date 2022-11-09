@@ -3,7 +3,7 @@ import pandas as pd
 import webbrowser
 
 # This a private API key provided by Google Maps
-apikey = 'AIzaSyDTIz5GAd2Su02_eHaYydlQc7iZZDr2Tao'
+apikey = ''
 
 
 # Function to draw the polygon of Medellin, reading all the coordinates from a csv file
